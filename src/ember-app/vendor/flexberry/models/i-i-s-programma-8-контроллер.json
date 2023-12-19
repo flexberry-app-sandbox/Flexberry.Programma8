@@ -1,0 +1,92 @@
+﻿{
+  "name": "IISProgramma_8Контроллер",
+  "modelName": "i-i-s-programma-8-контроллер",
+  "className": "Контроллер",
+  "nameSpace": "IIS.Programma_8",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "iDКонтроллера",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "модель",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сенсоры",
+      "relatedTo": "i-i-s-programma-8-сенсоры",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "серверная",
+      "relatedTo": "i-i-s-programma-8-серверная",
+      "inverse": "контроллер"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КонтроллерE",
+      "modelName": "i-i-s-programma-8-контроллер",
+      "attrs": [
+        {
+          "name": "модель",
+          "caption": "Модель",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "iDКонтроллера",
+          "caption": "I d контроллера",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Тип",
+          "lookupValueField": "тип",
+          "relationName": "Сенсоры",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "тип",
+              "caption": "Тип",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Сенсоры",
+          "name": "сенсоры",
+          "relatedTo": "i-i-s-programma-8-сенсоры",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

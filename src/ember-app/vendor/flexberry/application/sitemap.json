@@ -1,0 +1,81 @@
+﻿{
+  "applicationCaption": "Programma_8",
+  "applicationTitle": "Programma_8",
+  "items": [
+    {
+      "link": null,
+      "menuName": "курсовая",
+      "caption": "Курсовая",
+      "title": "Курсовая",
+      "children": [
+        {
+          "link": null,
+          "menuName": "сотрудники",
+          "caption": "Сотрудники",
+          "title": "Сотрудники",
+          "children": [
+            {
+              "link": "i-i-s-programma-8-должность-l",
+              "menuName": null,
+              "caption": "Должность",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-programma-8-сотрудник-l",
+              "menuName": null,
+              "caption": "Сотрудник",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "контроллер",
+          "caption": "Контроллер",
+          "title": "Контроллер",
+          "children": [
+            {
+              "link": "i-i-s-programma-8-сенсоры-l",
+              "menuName": null,
+              "caption": "Сенсоры",
+              "title": "",
+              "children": null
+            }
+          ]
+        },
+        {
+          "link": null,
+          "menuName": "сервер",
+          "caption": "Сервер",
+          "title": "Сервер",
+          "children": [
+            {
+              "link": "i-i-s-programma-8-отчет-о-сервере-l",
+              "menuName": null,
+              "caption": "Отчет о сервере",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-programma-8-серверная-l",
+              "menuName": null,
+              "caption": "Серверная",
+              "title": "",
+              "children": null
+            },
+            {
+              "link": "i-i-s-programma-8-расположение-l",
+              "menuName": null,
+              "caption": "Расположение",
+              "title": "",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

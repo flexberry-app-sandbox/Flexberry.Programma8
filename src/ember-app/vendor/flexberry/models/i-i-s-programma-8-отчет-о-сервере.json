@@ -1,0 +1,148 @@
+﻿{
+  "name": "IISProgramma_8ОтчетОСервере",
+  "modelName": "i-i-s-programma-8-отчет-о-сервере",
+  "className": "ОтчетОСервере",
+  "nameSpace": "IIS.Programma_8",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "режим",
+      "type": "i-i-s-programma-8-режим-сервера",
+      "flexberryType": "РежимСервера",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "расположение",
+      "relatedTo": "i-i-s-programma-8-расположение",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "серверная",
+      "relatedTo": "i-i-s-programma-8-серверная",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ОтчетОСервереE",
+      "modelName": "i-i-s-programma-8-отчет-о-сервере",
+      "attrs": [
+        {
+          "name": "режим",
+          "caption": "Режим",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Протокол",
+          "lookupValueField": "протокол",
+          "relationName": "Серверная",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [],
+          "index": 1,
+          "type": "standard",
+          "caption": "Серверная",
+          "name": "серверная",
+          "relatedTo": "i-i-s-programma-8-серверная",
+          "inverse": null
+        },
+        {
+          "lookupValue": "Адрес",
+          "lookupValueField": "адрес",
+          "relationName": "Расположение",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "адрес",
+              "caption": "Адрес",
+              "hidden": true,
+              "index": 3
+            }
+          ],
+          "index": 2,
+          "type": "standard",
+          "caption": "Расположение",
+          "name": "расположение",
+          "relatedTo": "i-i-s-programma-8-расположение",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ОтчетОСервереL",
+      "modelName": "i-i-s-programma-8-отчет-о-сервере",
+      "attrs": [
+        {
+          "name": "режим",
+          "caption": "Режим",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Серверная",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "протокол",
+              "caption": "Протокол",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Протокол",
+          "name": "серверная",
+          "relatedTo": "i-i-s-programma-8-серверная",
+          "inverse": null
+        },
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Расположение",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "адрес",
+              "caption": "Адрес",
+              "hidden": false,
+              "index": 2
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Адрес",
+          "name": "расположение",
+          "relatedTo": "i-i-s-programma-8-расположение",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

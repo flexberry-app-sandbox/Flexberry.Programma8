@@ -1,0 +1,1 @@
+docker-compose -p programma_8 up -d

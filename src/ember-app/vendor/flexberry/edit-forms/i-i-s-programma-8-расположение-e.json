@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Расположение",
+  "name": "IISProgramma_8РасположениеE",
+  "className": "РасположениеE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-programma-8-расположение",
+      "modelProjection": "РасположениеE"
+    }
+  ]
+}

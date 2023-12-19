@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Сенсоры",
+  "name": "IISProgramma_8СенсорыE",
+  "className": "СенсорыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-programma-8-сенсоры",
+      "modelProjection": "СенсорыE"
+    }
+  ]
+}

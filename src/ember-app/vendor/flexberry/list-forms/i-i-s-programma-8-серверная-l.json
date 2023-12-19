@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-programma-8-серверная-e",
+  "editForm": "i-i-s-programma-8-серверная-e",
+  "external": false,
+  "caption": "Серверная",
+  "name": "IISProgramma_8СервернаяL",
+  "className": "СервернаяL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-programma-8-серверная",
+      "modelProjection": "СервернаяL"
+    }
+  ]
+}

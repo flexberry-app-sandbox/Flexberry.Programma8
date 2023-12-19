@@ -1,0 +1,31 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудник",
+      "projection": "СотрудникL",
+      "detailModelName": null
+    },
+    {
+      "master": "сенсоры",
+      "displayAttributeName": "тип",
+      "required": true,
+      "relationName": "Контроллер.Сенсоры",
+      "projection": "СенсорыL",
+      "detailModelName": "i-i-s-programma-8-контроллер"
+    }
+  ],
+  "external": false,
+  "caption": "Серверная",
+  "name": "IISProgramma_8СервернаяE",
+  "className": "СервернаяE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-programma-8-серверная",
+      "modelProjection": "СервернаяE"
+    }
+  ]
+}

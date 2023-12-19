@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-programma-8-отчет-о-сервере-e",
+  "editForm": "i-i-s-programma-8-отчет-о-сервере-e",
+  "external": false,
+  "caption": "Отчет о сервере",
+  "name": "IISProgramma_8ОтчетОСервереL",
+  "className": "ОтчетОСервереL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-programma-8-отчет-о-сервере",
+      "modelProjection": "ОтчетОСервереL"
+    }
+  ]
+}
